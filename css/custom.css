@@ -1,0 +1,28 @@
+:root,
+[data-bs-theme=light] 
+{
+ --bs-dark-rgb: 10,50,15;
+}
+/*連結GOOGLE 雲端字體，提供用戶一致體驗UX*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+/*透過BODY 標籤，改變全部的文字預設字體*/
+body {font-family: "微軟正黑體","Noto Sans TC", sans-serif;}
+
+html {font-size: 20px;}
+
+footer a {text-decoration: none;}
+
+h2              {font-size:1.5rem; font-weight:900; color:rgb(39,102,229);}
+.h2-custom-pink {font-size:  3rem; font-weight:900; color:rgb(255,0,195);}
+h3              {font-size:1.5rem; font-weight:900; color:rgb(125,0,195);}
+
+.text-orange {
+    color: #9f110a;
+}
+
+.carousel-item img{
+    min-height: 350px;
+    max-height: 600px;
+    object-fit: cover;
+}
